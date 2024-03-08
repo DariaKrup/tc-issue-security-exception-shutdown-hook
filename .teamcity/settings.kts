@@ -4,7 +4,7 @@ import jetbrains.buildServer.configs.kotlin.version
 import org.yaml.snakeyaml.LoaderOptions
 import org.yaml.snakeyaml.Yaml
 
-version = "2023.05"
+version = "2023.11"
 project {
     val config = """
         data: 42
