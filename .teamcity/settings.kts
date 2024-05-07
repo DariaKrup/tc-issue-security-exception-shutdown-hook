@@ -7,7 +7,7 @@ import org.yaml.snakeyaml.Yaml
 version = "2024.03"
 project {
     val config = """
-        data: 22
+        data: 42
     """.trimIndent()
     val loaderOptions = LoaderOptions()
     val yaml = Yaml(loaderOptions)
